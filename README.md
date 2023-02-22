@@ -1,6 +1,6 @@
 # Various Linux commands
 
-These are linux commands usually asked in interviews. They are not sorted in any order.
+These are linux commands usually asked in interviews. They are not sorted in any order. **[Get in touch here if you have any questions](https://bizanosa.com/contact/)**
 
 **`uname`** : Print certain system information such as  kernel name  ,  hostname  , kernel release/version  , machine name  , processor , OS etc
 
@@ -39,8 +39,18 @@ kill pid
 kill -9 pid
 ```
 
-**``**
-**``**
+**`du`** Find out size of folder.
+
+```bash
+du -sh /folder
+```
+
+**`ip`** Check your Linux IP address
+
+```bash
+ip a
+```
+
 **``**
 **``**
 **``**
