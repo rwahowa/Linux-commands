@@ -1,6 +1,6 @@
 # Various Linux commands
 
-These are linux commands for various tasks. They are not sorted in any order.
+These are linux commands usually asked in interviews. They are not sorted in any order.
 
 **`uname`** : Print certain system information such as  kernel name  ,  hostname  , kernel release/version  , machine name  , processor , OS etc
 
@@ -22,5 +22,34 @@ nano ~/.bashrc
 alias k=kubectl
 
 ```
+
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
 
 Will add more ...
