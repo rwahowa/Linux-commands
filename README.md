@@ -1,6 +1,6 @@
 # Various Linux commands
 
-These are linux commands . That's it. They are not sorted in any order. **[Get in touch here if you have any questions](https://bizanosa.com/contact/)**
+These are linux commands . That's it. They are not sorted in any order. **[Get in touch here if you have any questions](https://bizanosa.com/contact/){:target="_blank"}**
 
 **`uname`** : Print certain system information such as  kernel name  ,  hostname  , kernel release/version  , machine name  , processor , OS etc
 
