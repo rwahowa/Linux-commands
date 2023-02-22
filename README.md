@@ -8,7 +8,6 @@ These are linux commands usually asked in interviews. They are not sorted in any
 uname -a
 ```
 
-**``**
 **`alias`** : Create an alias
 
 ```bash
@@ -24,7 +23,6 @@ alias k=kubectl
 
 ```
 
-**``**
 **``**
 **``**
 **``**
