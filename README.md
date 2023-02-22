@@ -23,8 +23,22 @@ alias k=kubectl
 
 ```
 
-**``**
-**``**
+**`SHELL`** : Find out which shell you are using
+
+```bash
+echo $SHELL
+#or
+echo $0
+```
+
+**`kill`** : How to kill a process. Replace `pid` with the process id.
+
+```bash
+kill pid
+ #or force kill it, if it won't stop
+kill -9 pid
+```
+
 **``**
 **``**
 **``**
