@@ -8,7 +8,7 @@ These are linux commands for various tasks. They are not sorted in any order.
 uname -a
 ```
 
-**`alias`** : Create an alis
+**`alias`** : Create an alias
 
 ```bash
 alias k=kubectl
