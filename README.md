@@ -82,6 +82,7 @@ touch filename.txt
 #create multple files
 touch file0 file1 file3
 
+# creates app.js, app.html. app.css
 touch app.{js,html,css}
 ```
 
