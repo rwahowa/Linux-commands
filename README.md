@@ -51,9 +51,40 @@ du -sh /folder
 ip a
 ```
 
-**``**
-**``**
-**``**
+**`df`** Check free disk space
+
+```bash
+df -h
+```
+
+**`ss`**  show open ports
+
+```bash
+ss -tulpn
+
+# or if it is in your system
+
+netstat -tulpn
+
+   # -t:  TCP connections.
+   # -u:  UDP connections.
+   # -l:  listening ports.
+   # -p:  PID and name .
+   # -n:  numerical addresses .
+
+```
+
+**`touch`** : create a file
+
+```bash
+touch filename.txt
+
+#create multple files
+touch file0 file1 file3
+
+touch app.{js,html,css}
+```
+
 **``**
 **``**
 **``**
