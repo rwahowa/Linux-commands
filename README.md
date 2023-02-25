@@ -2,10 +2,27 @@
 
 These are linux commands . That's it. They are not sorted in any order. **[Get in touch here if you have any questions](https://bizanosa.com/contact/)**
 
+It is up to up to you to dig deeper using Linux man pages or any other resources. To find out more about a command just do:
+
+```bash
+man thecommand
+#or
+thecommand --help
+
+# Eg:
+man cat
+
+cat --help
+
+```
+
 **`uname`** : Print certain system information such as  kernel name  ,  hostname  , kernel release/version  , machine name  , processor , OS etc
 
 ```bash
 uname -a
+
+# or use hostnamectl
+hostnamectl
 ```
 
 **`alias`** : Create an alias
@@ -86,10 +103,36 @@ touch file0 file1 file3
 touch app.{js,html,css}
 ```
 
-**``**
-**``**
-**``**
-**``**
+**`cat`** See contents of a file
+
+```bash
+cat app.js 
+```
+
+**`cp`** copy file
+
+```bash
+cp filename ./copy/to/here/withNewNameOrSameName
+
+cp file1 file2
+```
+
+**`cmp`** Compare 2 files byte by byte
+
+```bash
+cmp file1 file2
+```
+
+**`diff`** Compare files line by line
+
+```bash
+diff file1 file2
+
+# Compare directory content
+diff -r dir1/ dir2/
+
+```
+
 **``**
 **``**
 **``**
