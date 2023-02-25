@@ -5,7 +5,9 @@ These are linux commands . That's it. They are not sorted in any order. **[Get i
 It is up to up to you to dig deeper using Linux man pages or any other resources. To find out more about a command just do:
 
 ```bash
+
 man thecommand
+
 #or
 thecommand --help
 
