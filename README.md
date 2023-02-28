@@ -18,7 +18,7 @@ cat --help
 
 ```
 
-**`uname`** : Print certain system information such as  kernel name  ,  hostname  , kernel release/version  , machine name  , processor , OS etc
+1. **`uname`** : Print certain system information such as  kernel name  ,  hostname  , kernel release/version  , machine name  , processor , OS etc
 
 ```bash
 uname -a
@@ -27,7 +27,7 @@ uname -a
 hostnamectl
 ```
 
-**`alias`** : Create an alias
+1. **`alias`** : Create an alias
 
 ```bash
 alias k=kubectl
@@ -42,7 +42,7 @@ alias k=kubectl
 
 ```
 
-**`SHELL`** : Find out which shell you are using
+1. **`SHELL`** : Find out which shell you are using
 
 ```bash
 echo $SHELL
@@ -135,6 +135,22 @@ diff -r dir1/ dir2/
 
 ```
 
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
+**``**
 **``**
 **``**
 **``**
