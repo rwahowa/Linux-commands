@@ -76,64 +76,64 @@ cat --help
    df -h
    ```
 
-**`ss`**  show open ports
+7. **`ss`**  show open ports
 
-```bash
-ss -tulpn
+   ```bash
+   ss -tulpn
 
-# or if it is in your system
+   # or if it is in your system
 
-netstat -tulpn
+   netstat -tulpn
 
-   # -t:  TCP connections.
-   # -u:  UDP connections.
-   # -l:  listening ports.
-   # -p:  PID and name .
-   # -n:  numerical addresses .
+      # -t:  TCP connections.
+      # -u:  UDP connections.
+      # -l:  listening ports.
+      # -p:  PID and name .
+      # -n:  numerical addresses .
 
-```
+   ```
 
-**`touch`** : create a file
+8. **`touch`** : create a file
 
-```bash
-touch filename.txt
+   ```bash
+   touch filename.txt
 
-#create multple files
-touch file0 file1 file3
+   #create multple files
+   touch file0 file1 file3
 
-# creates app.js, app.html. app.css
-touch app.{js,html,css}
-```
+   # creates app.js, app.html. app.css
+   touch app.{js,html,css}
+   ```
 
-**`cat`** See contents of a file
+9. **`cat`** See contents of a file
 
-```bash
-cat app.js 
-```
+   ```bash
+   cat app.js 
+   ```
 
-**`cp`** copy file
+10. **`cp`** copy file
 
-```bash
-cp filename ./copy/to/here/withNewNameOrSameName
+      ```bash
+      cp filename ./copy/to/here/withNewNameOrSameName
 
-cp file1 file2
-```
+      cp file1 file2
+      ```
 
-**`cmp`** Compare 2 files byte by byte
+11. **`cmp`** Compare 2 files byte by byte
 
-```bash
-cmp file1 file2
-```
+      ```bash
+      cmp file1 file2
+      ```
 
-**`diff`** Compare files line by line
+12. **`diff`** Compare files line by line
 
-```bash
-diff file1 file2
+      ```bash
+      diff file1 file2
 
-# Compare directory content
-diff -r dir1/ dir2/
+      # Compare directory content
+      diff -r dir1/ dir2/
 
-```
+      ```
 
 **``**
 **``**
