@@ -20,61 +20,61 @@ cat --help
 
 1. **`uname`** : Print certain system information such as  kernel name  ,  hostname  , kernel release/version  , machine name  , processor , OS etc
 
-```bash
-uname -a
+   ```bash
+   uname -a
 
-# or use hostnamectl
-hostnamectl
-```
+   # or use hostnamectl
+   hostnamectl
+   ```
 
-2.**`alias`** : Create an alias
+2. **`alias`** : Create an alias
 
-```bash
-alias k=kubectl
-```
+   ```bash
+   alias k=kubectl
+   ```
 
-To make the alias permanent add it to your bashrc or zshrc file if using Zsh.
+   To make the alias permanent add it to your bashrc or zshrc file if using Zsh.
 
-```bash
-nano ~/.bashrc
+   ```bash
+   nano ~/.bashrc
 
-alias k=kubectl
+   alias k=kubectl
 
-```
+   ```
 
-3.**`SHELL`** : Find out which shell you are using
+3. **`SHELL`** : Find out which shell you are using
 
-```bash
-echo $SHELL
-#or
-echo $0
-```
+   ```bash
+   echo $SHELL
+   #or
+   echo $0
+   ```
 
-**`kill`** : How to kill a process. Replace `pid` with the process id.
+4. **`kill`** : How to kill a process. Replace `pid` with the process id.
 
-```bash
-kill pid
- #or force kill it, if it won't stop
-kill -9 pid
-```
+   ```bash
+   kill pid
+   #or force kill it, if it won't stop
+   kill -9 pid
+   ```
 
-**`du`** Find out size of folder.
+5. **`du`** Find out size of folder.
 
-```bash
-du -sh /folder
-```
+   ```bash
+   du -sh /folder
+   ```
 
-**`ip`** Check your Linux IP address
+   **`ip`** Check your Linux IP address
 
-```bash
-ip a
-```
+   ```bash
+   ip a
+   ```
 
-**`df`** Check free disk space
+6. **`df`** Check free disk space
 
-```bash
-df -h
-```
+   ```bash
+   df -h
+   ```
 
 **`ss`**  show open ports
 
