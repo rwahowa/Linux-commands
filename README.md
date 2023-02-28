@@ -135,7 +135,7 @@ cat --help
 
       ```
 
-## Git commands for daily use **``**
+## Git commands for daily use 
 
 1. **`git init`**: For initializing new repository in the current folder.
 
