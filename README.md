@@ -27,7 +27,7 @@ uname -a
 hostnamectl
 ```
 
-1. **`alias`** : Create an alias
+2.**`alias`** : Create an alias
 
 ```bash
 alias k=kubectl
@@ -42,7 +42,7 @@ alias k=kubectl
 
 ```
 
-1. **`SHELL`** : Find out which shell you are using
+3.**`SHELL`** : Find out which shell you are using
 
 ```bash
 echo $SHELL
