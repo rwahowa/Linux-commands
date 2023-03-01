@@ -135,7 +135,34 @@ cat --help
 
       ```
 
-## Git commands for daily use 
+13. **`ip`** : show / manipulate routing, network devices, interfaces and tunnels
+
+      ```bash
+      ip addr show 
+
+      ip route # show routing table
+
+      ```
+
+14. **`ping`** : Test connectivity
+
+      ```bash
+      ping bizanosa.com
+      ```
+
+15. **`traceroute`** : For tracing the path taken by packets through a network
+  
+      ```bash
+      traceroute youtube.com
+      ```
+
+16. **`dig`** : DNS lookup utility
+  
+      ```bash
+      dig youtube.com
+      ```
+
+## Git commands for daily use
 
 1. **`git init`**: For initializing new repository in the current folder.
 
