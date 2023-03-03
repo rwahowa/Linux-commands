@@ -20,3 +20,4 @@ echo -e "Disk usage Home: $(df -h /home | awk '/\// {print $3 "/" $2 " (" $5 " u
 
 # End of script
 echo "All completed."
+
