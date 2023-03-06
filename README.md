@@ -27,7 +27,7 @@ cat --help
    hostnamectl
    ```
 
-2. **`alias`** : Create an alias
+1. **`alias`** : Create an alias
 
    ```bash
    alias k=kubectl
@@ -42,7 +42,7 @@ cat --help
 
    ```
 
-3. **`SHELL`** : Find out which shell you are using
+1. **`SHELL`** : Find out which shell you are using
 
    ```bash
    echo $SHELL
@@ -50,7 +50,7 @@ cat --help
    echo $0
    ```
 
-4. **`kill`** : How to kill a process. Replace `pid` with the process id.
+1. **`kill`** : How to kill a process. Replace `pid` with the process id.
 
    ```bash
    kill pid
@@ -58,7 +58,7 @@ cat --help
    kill -9 pid
    ```
 
-5. **`du`** Find out size of folder.
+1. **`du`** Find out size of folder.
 
    ```bash
    du -sh /folder
@@ -70,13 +70,13 @@ cat --help
    ip a
    ```
 
-6. **`df`** Check free disk space
+1. **`df`** Check free disk space
 
    ```bash
    df -h
    ```
 
-7. **`ss`**  show open ports
+1. **`ss`**  show open ports
 
    ```bash
    ss -tulpn
@@ -93,7 +93,7 @@ cat --help
 
    ```
 
-8. **`touch`** : create a file
+1. **`touch`** : create a file
 
    ```bash
    touch filename.txt
@@ -105,13 +105,13 @@ cat --help
    touch app.{js,html,css}
    ```
 
-9. **`cat`** See contents of a file
+1. **`cat`** See contents of a file
 
    ```bash
    cat app.js 
    ```
 
-10. **`cp`** copy file
+1. **`cp`** copy file
 
       ```bash
       cp filename ./copy/to/here/withNewNameOrSameName
@@ -119,13 +119,13 @@ cat --help
       cp file1 file2
       ```
 
-11. **`cmp`** Compare 2 files byte by byte
+1. **`cmp`** Compare 2 files byte by byte
 
       ```bash
       cmp file1 file2
       ```
 
-12. **`diff`** Compare files line by line
+1. **`diff`** Compare files line by line
 
       ```bash
       diff file1 file2
@@ -135,7 +135,7 @@ cat --help
 
       ```
 
-13. **`ip`** : show / manipulate routing, network devices, interfaces and tunnels
+1. **`ip`** : show / manipulate routing, network devices, interfaces and tunnels
 
       ```bash
       ip addr show 
@@ -144,19 +144,19 @@ cat --help
 
       ```
 
-14. **`ping`** : Test connectivity
+1. **`ping`** : Test connectivity
 
       ```bash
       ping bizanosa.com
       ```
 
-15. **`traceroute`** : For tracing the path taken by packets through a network
+1. **`traceroute`** : For tracing the path taken by packets through a network
   
       ```bash
       traceroute youtube.com
       ```
 
-16. **`dig`** : DNS lookup utility
+1. **`dig`** : DNS lookup utility
   
       ```bash
       dig youtube.com
