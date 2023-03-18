@@ -162,6 +162,8 @@ cat --help
       dig youtube.com
       ```
 
+1. **CTRL + Z** suspend a running process and place it in the background. Type `fg` , then enter to bring it back to the foreground.
+
 ## Git commands for daily use
 
 1. **`git init`**: For initializing new repository in the current folder.
