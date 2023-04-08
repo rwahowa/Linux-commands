@@ -179,7 +179,6 @@ cat --help
 2. **`git clone`** : Clone an existing repo from Github or any other remote repository.
 
    ```bash
-
    git clone https://github.com/rwahowa/Linux-commands.git
    ```
 
