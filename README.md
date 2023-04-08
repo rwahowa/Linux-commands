@@ -164,6 +164,8 @@ cat --help
 
 1. **CTRL + Z** suspend a running process and place it in the background. Type `fg` , then enter to bring it back to the foreground.
 
+1. **CTRL + R** Used in the linux terminal to search through commands history. Type what you remember, and the most recent matching history commands will be displayed. Press `ctrl + r` again to cycle through the next command. `ctrl + shift + r` will navigate in the other direction. Press `ctrl + g` to get back to terminal and close the reverse search mode.
+
 ## Git commands for daily use
 
 1. **`git init`**: For initializing new repository in the current folder.
