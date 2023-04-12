@@ -168,9 +168,9 @@ cat --help
 
 1. Nano editor undo:
 
-```bash
-alt + u
-```
+      ```bash
+      alt + u
+      ```
 
 1. Nano editor redo:
 
