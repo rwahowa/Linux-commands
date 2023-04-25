@@ -156,7 +156,7 @@ cat --help
       traceroute youtube.com
       ```
 
-1. **`dig`** : DNS lookup utility. 
+1. **`dig`** : DNS lookup utility. The DNS results will be under the *ANSWER SECTION*
   
       ```bash
       #    Basic DNS lookup:
@@ -165,7 +165,7 @@ cat --help
       #  look up specific DNS record type:
       dig youtube.com MX
 
-      #rDNS query
+      # rDNS query
       dig -x 127.0.1.1
 
 
