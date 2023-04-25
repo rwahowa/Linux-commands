@@ -156,10 +156,19 @@ cat --help
       traceroute youtube.com
       ```
 
-1. **`dig`** : DNS lookup utility
+1. **`dig`** : DNS lookup utility. 
   
       ```bash
+      #    Basic DNS lookup:
       dig youtube.com
+
+      #  look up specific DNS record type:
+      dig youtube.com MX
+
+      #rDNS query
+      dig -x 127.0.1.1
+
+
       ```
 
 1. **CTRL + Z** suspend a running process and place it in the background. Type `fg` , then enter to bring it back to the foreground.
