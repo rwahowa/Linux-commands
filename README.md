@@ -168,6 +168,11 @@ cat --help
       # rDNS query
       dig -x 127.0.1.1
 
+      # Specify a DNS server for lookup
+
+      dig youtube.com @8.8.8.8
+
+
 
       ```
 
