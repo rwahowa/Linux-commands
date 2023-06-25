@@ -1,4 +1,4 @@
-# This is a sample script added solely to make github show this repo as using shell due to the .sh file extension.
+# This is a sample script added solely to make github show this repository as using shell due to the .sh file extension.
 #!/bin/bash
 
 # Update the Debian based system
@@ -9,7 +9,7 @@ sudo apt upgrade -y
 
 echo -e "\n-------------------"
 echo "System information:"
-echo -e "-------------------\n"
+echo -e "--------------------\n"
 
 echo "Hostname: $(hostname)"
 echo "Kernel version: $(uname -r)"
