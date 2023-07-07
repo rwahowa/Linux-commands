@@ -192,6 +192,26 @@ cat --help
 alt + shift + e
 ```
 
+1. Zip command:
+
+```bash
+# Will create a zip file named zipped.zip containing file1.js, file2.js and img/ folder
+
+zip zipped.zip file1.js file2.js img/ 
+
+# Recursively zips a folder:
+
+zip -r zipped.zip project/
+
+#Add password to your zip file. You will get a prompt to enter the password
+
+zip -e zipped.zip file1.js file2.js img/ 
+
+# Unzip a zip to current working directory
+unzip zipped.zip
+
+```
+
 ## Git commands for daily use
 
 1. **`git init`**: For initializing new repository in the current folder.
