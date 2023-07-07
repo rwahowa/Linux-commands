@@ -203,7 +203,7 @@ zip zipped.zip file1.js file2.js img/
 
 zip -r zipped.zip project/
 
-#Add password to your zip file. You will get a prompt to enter the password
+#Add password to your zip file. You will get a prompt to enter a password
 
 zip -e zipped.zip file1.js file2.js img/ 
 
