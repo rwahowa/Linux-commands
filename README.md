@@ -210,6 +210,8 @@ zip -e zipped.zip file1.js file2.js img/
 # Unzip a zip to current working directory
 unzip zipped.zip
 
+# Unzip a zip to a specified directory
+unzip zipped.zip -d /home/documents/directroy1/
 ```
 
 ## Git commands for daily use
